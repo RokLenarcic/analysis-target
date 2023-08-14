@@ -52,6 +52,26 @@ def get_db_transaction(transaction_id: str) -> DbTransaction:
     """Get transaction"""
     return DbTransaction.objects.get_or_404(id=transaction_id)
 
+def get_db_transaction777(transaction_id: str) -> DbTransaction:
+    """Get transaction"""
+    return DbTransaction.objects.get_or_404(id=transaction_id)
+
+def get_db_transaction66(transaction_id: str) -> DbTransaction:
+    """Get transaction"""
+    return DbTransaction.objects.get_or_404(id=transaction_id)
+
+def get_db_transaction55(transaction_id: str) -> DbTransaction:
+    """Get transaction"""
+    return DbTransaction.objects.get_or_404(id=transaction_id)
+
+def get_db_transaction44(transaction_id: str) -> DbTransaction:
+    """Get transaction"""
+    return DbTransaction.objects.get_or_404(id=transaction_id)
+
+def get_db_transaction22(transaction_id: str) -> DbTransaction:
+    """Get transaction"""
+    return DbTransaction.objects.get_or_404(id=transaction_id)
+
 
 def get_transaction(identity: Identity, id: str) -> Transaction:
     """Get specified transaction"""
