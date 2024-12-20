@@ -1,0 +1,12 @@
+{"rule_sets": [
+  {"matching_content_path": "**/*",
+   "quality_gates": {
+     "hotspot_decline": false,
+     "new_code_health": false,
+     "critical_health_rules": false,
+     "advisory_health_rules": false,
+     "refactoring_goals": false,
+     "supervise_goals": false,
+     "codeowners_for_critical_code": false
+   }}
+]}
