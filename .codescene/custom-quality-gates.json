@@ -1,5 +1,5 @@
 {"rule_sets": [
-  {"matching_content_path": "**/*",
+  {"matching_content_path": "**/*.x",
    "quality_gates": {
      "hotspot_decline": false,
      "new_code_health": false,
