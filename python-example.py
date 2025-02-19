@@ -52,7 +52,6 @@ def get_db_transaction(transaction_id: str) -> DbTransaction:
     """Get transaction"""
     return DbTransaction.objects.get_or_404(id=transaction_id)
 
-
 def get_transaction(identity: Identity, id: str) -> Transaction:
     """Get specified transaction"""
     return to_transaction_model(_update_cancellable(get_db_transaction(id)))
@@ -514,7 +513,6 @@ def _release_purse_reservation(transaction: DbTransaction) -> None:
         except ApiException as ae:
             logger.error("Failed to delete purse reservation, purse=%s, reservation=%s",
                          transaction.wallet.purse_id, transaction.purse_reservation_id, exc_info=ae)
-
 
 def _revert_purse_record(transaction: DbTransaction) -> None:
     """Revert possible purse record"""
