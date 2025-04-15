@@ -4,3 +4,4 @@
 Some text.
 A
 A
+A
