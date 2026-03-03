@@ -1,2 +1,9 @@
 int main() { }
-int f(){}
+int f(){
+ if true {
+   if true {
+     if true {
+     }
+   }
+ }
+}
